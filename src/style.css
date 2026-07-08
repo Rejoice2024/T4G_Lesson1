@@ -1,17 +1,26 @@
-/*img {
-    width: 150px;
-    height: 150px;
-    border: 4px solid burlywood;
-    margin: 50px;
-}*/
+/*Styling accross all pages*/
 
 nav {
     border: 2px solid darkblue;
 }
 
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black
+}
+
 nav ul li {
     list-style: none;
 }
+
+
+/* Styling ends accross all pages */
 
 p {
     font-family: "Franklin Gothic Medium", 'Arial Narrow', sans-serif;
@@ -20,8 +29,10 @@ p {
     /* word spacing: 2px; */
     line-height: 1.5;
     text-align: justify;
-    /*overflow-y: hidden;*/
 }
+
+
+/* Styling for the homepage */
 
 .img1 {
     border: 10px double darkred;
@@ -43,8 +54,22 @@ button {
     height: 25px;
     border: 2px solid rgb(15, 1, 19);
     border-radius: 5px;
+    cursor: pointer;
 }
 
-body {
-    /*overflow-y: hidden;*/
+
+/* Styling ends for the homepage */
+
+
+/* login styling page */
+
+.Products {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 50px;
+}
+
+.Products div {
+    width: 400px;
+    height: auto;
 }
