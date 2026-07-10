@@ -73,3 +73,50 @@ button {
     width: 400px;
     height: auto;
 }
+
+.Shop div button {
+    color: white;
+    background-color: #3b241b;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 23px;
+    opacity: 0.9;
+}
+
+.Shop div button:hover {
+    color: #3b241b;
+    background-color: white;
+    border: 1px solid #3b241b;
+}
+
+.Shop div:hover {
+    border: 2px solid #3b241b;
+    padding: 15px;
+    box-shadow: 0px 0px 5px brown;
+}
+
+.Products1 div img {
+    width: 250px;
+    height: auto;
+}
+
+.Products2 div img {
+    width: 250px;
+    height: auto;
+}
+
+.Products3 div img {
+    width: 250px;
+    height: auto;
+}
+
+.Products4 div img {
+    width: 250px;
+    height: auto;
+}
+
+.Shop {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 50px;
+}
